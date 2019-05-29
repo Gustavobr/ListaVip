@@ -21,7 +21,7 @@ public class EnviadorEmail {
        Email email = new SimpleEmail();
 email.setHostName("smtp.googlemail.com");
 email.setSmtpPort(465);
-email.setAuthentication("GustavoScipiao@gmail.com", "A17forte!");
+email.setAuthentication("GustavoScipiao@gmail.com", "Senha”);
 email.setSSLOnConnect(true);
 email.setFrom("GustavoScipiao@gmail.com");
 email.setSubject("ListaVip - Convite");
